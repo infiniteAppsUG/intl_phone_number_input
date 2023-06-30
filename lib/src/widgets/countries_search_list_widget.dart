@@ -19,13 +19,14 @@ class CountrySearchListWidget extends StatefulWidget {
 
   CountrySearchListWidget(
     this.countries,
+  this.searchBoxHeadline,
     this.locale, {
     this.searchBoxDecoration,
     this.scrollController,
     this.showFlags,
     this.useEmoji,
     this.autoFocus = false,
-        this.searchBoxHeadline
+
   });
 
   @override

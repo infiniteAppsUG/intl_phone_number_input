@@ -6,6 +6,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 
 
+
 /// Creates a list of Countries with a search textfield.
 class CountrySearchListWidget extends StatefulWidget {
   final List<Country> countries;

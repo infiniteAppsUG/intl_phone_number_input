@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:intl_phone_number_input/src/models/country_model.dart';
 import 'package:intl_phone_number_input/src/utils/test/test_helper.dart';
 import 'package:intl_phone_number_input/src/utils/util.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
+
 
 /// Creates a list of Countries with a search textfield.
 class CountrySearchListWidget extends StatefulWidget {
@@ -52,7 +55,7 @@ class _CountrySearchListWidgetState extends State<CountrySearchListWidget> {
   /// Returns [InputDecoration] of the search box
   InputDecoration getSearchBoxDecoration() {
     return widget.searchBoxDecoration ??
-        InputDecoration(labelText: 'Dididamdididamdam');
+        InputDecoration(labelText: AppLocalizations.of(context).input_widget_title);
   }
 
   @override

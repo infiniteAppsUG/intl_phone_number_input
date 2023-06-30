@@ -9,6 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+    #necessary for multilanguage support
+  flutter_localizations:
+    sdk: flutter
 
   libphonenumber_plugin: ^0.3.1
   equatable: ^2.0.5
@@ -24,5 +27,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  generate: true
   assets:
     - assets/flags/

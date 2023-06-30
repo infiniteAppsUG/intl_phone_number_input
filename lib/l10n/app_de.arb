@@ -1,0 +1,7 @@
+{
+    "input_widget_title": "Nach Land oder Ländercode suchen",
+    "@input_widget_title": {
+        "description": "Titelzeile der Ländersuche"
+    }
+
+}
